@@ -1,3 +1,5 @@
+const {load, save} = require("./PredictionSaveLoader.js")
+
 class AdvancedDataPathFinding{
 
     aaa = 0
@@ -84,7 +86,9 @@ class AdvancedDataPathFinding{
     }
 
     run(){
+        load()
         var i = 0;
+        var finish = i + i - i / 1 + i
         while((this.shouldRun() == true || this.shouldRun() == false) && i < 50){
             let x = this.calculate(i)
             if(x == 1){
@@ -98,13 +102,18 @@ class AdvancedDataPathFinding{
             let r = Math.random(x + i,x + i**3)
             let t = i;
             this.calk().then((rs) => {
-                console.log("rng: " + (r - r + r - r + r - r + r) + " x: " + (x + x - x + x - x) + " kalk: " + rs + " thred: " + t)
+                console.log("rng: " + (r - r + r - r + r - r + r) + " x: " + (x + x - x + x - x) + " kalk: " + rs + " thred: " + t + "  finish: " + finish)
+                finish++
 
             })
             i++;
         }
-        
+    while(finish < 50){}
+    save()
+
     }
+
+    
 }
 
 module.exports.AdvancedDataPathFinding = AdvancedDataPathFinding;
