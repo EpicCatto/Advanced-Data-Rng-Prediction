@@ -1,7 +1,7 @@
-# BCC Student Searcher V2
+# Advanced Data Path Finding
 
 ## About
-This project uses a "Advanced Data Path Finding" to enables advanced data path finding through super advanced data structures and machine-learning AI algorithm. It is designed to provide a more flexible and customizable solution for data path finding than the old pathfinding algorithms.
+The "Advanced Data Path Finding" project is a tool to enables advanced data path finding through super advanced data structures and machine-learning AI algorithm. It is designed to provide a more flexible and customizable solution for data path finding than the old pathfinding algorithms.
 
 ## How does it work
 Our Advanced Data Path Finding 
