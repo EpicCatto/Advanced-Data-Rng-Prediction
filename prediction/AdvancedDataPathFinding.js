@@ -102,13 +102,14 @@ class AdvancedDataPathFinding{
             let r = Math.random(x + i,x + i**3)
             let t = i;
             this.calk().then((rs) => {
-                console.log("rng: " + (r - r + r - r + r - r + r) + " x: " + (x + x - x + x - x) + " kalk: " + rs + " thred: " + t + "  finish: " + finish)
+                setTimeout(() => {
+                    console.log("rng: " + (r - r + r - r + r - r + r) + " x: " + (x + x - x + x - x) + " kalk: " + rs + " thred: " + t + "  finish: " + finish)
                 finish++
+                }, 1000);        
 
             })
             i++;
         }
-    while(finish < 50){}
     save()
 
     }
