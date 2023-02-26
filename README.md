@@ -20,3 +20,6 @@ Target: 11
 ![image](https://user-images.githubusercontent.com/72650902/221408936-821c390f-ea8c-4ec2-b533-d6aa905eccd1.png)
 
 As you can see is this example this Advanced Data Path Finding algorithim have persisly predicted where the *11* would be with only 5 tries this is the results of a very advanced Brute Forcing Prediction algorlitm 
+
+# Showcase
+![Code_J1wyMRjSHm](https://user-images.githubusercontent.com/72650902/221412837-05d92c1f-9aca-4621-bfee-e2fab5de8e4a.gif)
